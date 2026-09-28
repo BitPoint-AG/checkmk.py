@@ -30,6 +30,7 @@ from typing_extensions import override
 class HostStates(IntEnum):
     UP = 0
     DOWN = 1
+    UNREACHABLE = 2
 
     @override
     def __str__(self) -> str:
@@ -41,6 +42,7 @@ class ServiceStates(IntEnum):
     WARNING = 1
     WARN = 1
     CRITICAL = 2
+    UNKNOWN = 3
 
     @override
     def __str__(self) -> str:
