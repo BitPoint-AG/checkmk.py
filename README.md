@@ -26,7 +26,7 @@ A modern async API wrapper for the Checkmk API written in Python.
 You can install the latest version from the repository:
 
 ```bash
-$ git clone https://github.com/tom-jm69/checkmk.py
+$ git clone https://github.com/BitPoint-AG/checkmk.py
 $ cd checkmk.py
 $ python3 -m pip install -U .
 ```
@@ -37,10 +37,10 @@ To install using [uv](https://github.com/astral-sh/uv):
 
 ```bash
 # Install latest from main branch
-$ uv add "checkmk-py @ git+https://github.com/tom-jm69/checkmk.py"
+$ uv add "checkmk-py @ git+https://github.com/BitPoint-AG/checkmk.py"
 
 # Install specific tag
-$ uv add "checkmk-py @ git+https://github.com/tom-jm69/checkmk.py@0.1.0"
+$ uv add "checkmk-py @ git+https://github.com/BitPoint-AG/checkmk.py@0.1.0"
 ```
 
 ## Quick Example
